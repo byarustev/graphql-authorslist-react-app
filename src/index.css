@@ -12,3 +12,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.main h1{
+  color: #444444;
+  text-align: center;
+}
+
+.main{
+  padding: 0;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+.books-list{
+  padding: 0;
+}
+
+.books-list ul{
+  padding: 0;
+  list-style: none;
+}
+
+.books-list li{
+  display: inline-block;
+  margin: 12px;
+}
+
+.other-books ul{
+  padding: 0;
+  list-style: none;
+}
+
+.other-books li{
+  display: inline-block;
+}
